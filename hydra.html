@@ -102,15 +102,17 @@
         z-index: -1;
       }
       #hydra-bg {
+        object-fit: cover;
         position: fixed; /* ignore margins */
-        top: 0px;
-        left: 0px;
-        width: 100%; /* fill screen */
-        height: 100%;
+        top: 50%;
+        left: 50%;
+        min-width: 100%; /* fill screen */
+        min-height: 100%;
         background-size: cover;
         overflow-y: hidden;
         z-index: -1; /* place behind everything else */
         display: block;
+        transform: translate(-50%, -50%) !important;
       }
     </style>
     <!-- Custom styles for this template -->

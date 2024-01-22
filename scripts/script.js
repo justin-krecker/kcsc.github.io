@@ -1,7 +1,7 @@
 let hydraCanvas = document.getElementById("hydra-bg");
 // set small size to avoid high resource demand:
-hydraCanvas.width  = Math.min(window.innerWidth  , 1280);
-hydraCanvas.height = Math.min(window.innerHeight , 720);
+hydraCanvas.width  = Math.min(window.innerWidth  , 1920);
+hydraCanvas.height = Math.min(window.innerHeight , 1920);
 
 const hydra = new Hydra({
   canvas: hydraCanvas,
