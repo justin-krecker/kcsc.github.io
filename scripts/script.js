@@ -1,13 +1,24 @@
 let hydraCanvas = document.getElementById("hydra-bg");
 // set small size to avoid high resource demand:
-hydraCanvas.width  = Math.min(window.innerWidth  , 1920);
-hydraCanvas.height = Math.min(window.innerHeight , 1920);
+hydraCanvas.width  = Math.min(window.innerWidth, 1920);
+hydraCanvas.height = Math.min(window.innerHeight, 1920);
 
 const hydra = new Hydra({
   canvas: hydraCanvas,
   detectAudio: false,
   enableStreamCapture: false,
 });
+
+resizeTimeout = -1;
+onresize = ()=> {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(()=>{
+        setResolution(
+            Math.min(window.innerWidth, 1920),
+            Math.min(window.innerHeight, 1920)
+        );
+    },200)
+}
 
 // licensed with CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
 //www.twoforlarry.com
