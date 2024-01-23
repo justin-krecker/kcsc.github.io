@@ -1,11 +1,11 @@
 let hydraCanvas = document.getElementById("hydra-bg");
 // set small size to avoid high resource demand:
-hydraCanvas.width  = Math.min(window.innerWidth, 1920);
-hydraCanvas.height = Math.min(window.innerHeight, 1920);
+hydraCanvas.width  = Math.min(1920);
+hydraCanvas.height = Math.min(1920);
 
 const hydra = new Hydra({
   canvas: hydraCanvas,
-  detectAudio: false,
+  detectAudio: true,
   enableStreamCapture: false,
 });
 
@@ -14,31 +14,51 @@ onresize = ()=> {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(()=>{
         setResolution(
-            Math.min(window.innerWidth, 1920),
-            Math.min(window.innerHeight, 1920)
+            Math.min(1920),
+            Math.min(1920)
         );
     },200)
 }
 
 // licensed with CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
-//www.twoforlarry.com
-osc(4,.25,[1.5,1.9].smooth().fast(.25))
-  .modulate(o2,1)
-  .out(o0)
+// www.twoforlarry.com
+a.setSmooth(.6)
+a.setScale(20)
 src(o1)
-  .add(src(o1).scroll(.5,.5),1)
-  .scroll([0,-.025,-.05,-.025,0,.025,.05,.025].smooth()
-          ,[.05,.025,0,-.025,-.05,-.025,0,.025].smooth())
-  .add(src(o2).scale(.9),.8)
+  .rotate(()=>a.fft[2])
+  .add(src(o2)
+       .rotate(()=>a.fft[0])
+       ,1)
+  .add(src(o3)
+       .rotate(()=>a.fft[3]*-1)
+       ,1)
+  .repeat(2,2,0,0)
+  .kaleid(2)
+  //.scroll(()=>a.fft[1]/2-a.fft[0]/2,
+          //()=>a.fft[1]/2-a.fft[3]/2,
+          //.0156,-.0156)
+  .saturate(2)
+  .colorama(1)
+  .scale(2)
+  .out(o0)
+shape(90,.01,.79)
+  .scroll(0,0,.0625,.125)
+  .repeat(2,2,0,0)
+  .kaleid(2)
   .kaleid(8)
-  .out(o2)
-shape(90,.75,.01)
-  .diff(shape(90,.75,.01)
-        // t, tr, r, b, b, bl, l, tl
-        .scroll([0,-.025,-.05,-.025,0,.025,.05,.025]
-                .smooth(),
-                [.05,.025,0,-.025,-.05,-.025,0,.025]
-                .smooth()))
-  .scroll(0,0,.0312,-.0312)
+  .add(src(o1).scroll(.5,.5),1)
+  .mult(solid(0,.5,0,1),1)
   .out(o1)
+shape(4,.01,.9)
+  .scroll(0,0,.0312,-.0312)
+  .repeat(2,2,0,0)
+  .kaleid(4)
+  .mult(solid(1,0,0,1),1)
+  .out(o2)
+osc(20,-.0312,0)
+  .rotate(0,.0312)
+  .kaleid(8)
+  .mult(solid(0,0,1,1),1)
+  .out(o3)
+
 
