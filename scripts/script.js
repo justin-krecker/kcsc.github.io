@@ -5,7 +5,7 @@ hydraCanvas.height = Math.min(1920);
 
 const hydra = new Hydra({
   canvas: hydraCanvas,
-  detectAudio: true,
+  detectAudio: false,
   enableStreamCapture: false,
 });
 
@@ -22,15 +22,15 @@ onresize = ()=> {
 
 // licensed with CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
 // www.twoforlarry.com
-a.setSmooth(.6)
-a.setScale(20)
+//a.setSmooth(.6)
+//a.setScale(20)
 src(o1)
-  .rotate(()=>a.fft[2])
+  //.rotate(()=>a.fft[2])
   .add(src(o2)
-       .rotate(()=>a.fft[0])
+       //.rotate(()=>a.fft[0])
        ,1)
   .add(src(o3)
-       .rotate(()=>a.fft[3]*-1)
+       //.rotate(()=>a.fft[3]*-1)
        ,1)
   .repeat(2,2,0,0)
   .kaleid(2)

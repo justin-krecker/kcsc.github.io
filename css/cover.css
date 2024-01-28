@@ -9,6 +9,7 @@
 .btn-light:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
+  margin:.25rem 0;
 }
 
 
