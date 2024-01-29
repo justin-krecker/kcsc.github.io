@@ -14,7 +14,8 @@ const d =  {
             { "text": "Apple Music", "link": "https://music.apple.com/gb/artist/agrekulture/1502037502" },
             { "text": "Spotify", "link": "https://open.spotify.com/artist/32XJzCX7jVRj8lP3IMYUix?si=un2gaYmZRo2EzamjEg_TGA" },
             { "text": "BandCamp", "link": "https://fuklyfe.bandcamp.com/album/beet-tape" },
-            { "text": "YouTube", "link": "https://www.youtube.com/channel/UCrrvfYSVmDQL1yu0rpSYAHA" }
+            { "text": "YouTube", "link": "https://www.youtube.com/channel/UCrrvfYSVmDQL1yu0rpSYAHA" },
+            { "text": "Instagram", "link": "https://www.instagram.com/agrekulture/" }
         ]
     },
     "bilateral_motion": {
@@ -33,7 +34,8 @@ const d =  {
         "handle": "hautlle",
         "links": [
             { "text": "BandCamp", "link": "https://virtualurbanrecords.bandcamp.com/album/homemade-recordings-of-handmade-dreams" },
-            { "text": "BandCamp", "link": "https://hautlle.bandcamp.com/" }
+            { "text": "BandCamp", "link": "https://hautlle.bandcamp.com/" },
+            { "text": "instagram", "link": "https://www.instagram.com/the_hautlle" }
         ]
     },
     "j_pino": {
@@ -143,6 +145,12 @@ const d =  {
         "links": [
             { "text": "www.therecordmachine.co", "link": "https://www.therecordmachine.co/"},
             { "text": "Instagram", "link": "http://www.instagram.com/bobcatattack.me"}
+        ]
+    },
+    "austin_williamson": {
+        "handle": "Austin Williamson",
+        "links": [
+            { "text": "Bandcamp", "link": "https://austinwilliamson.bandcamp.com/album/structures"}
         ]
     }
 }
