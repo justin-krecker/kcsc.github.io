@@ -4,7 +4,7 @@ const d =  {
         "links": [
             { "text": "Apple Music", "link": "https://music.apple.com/us/artist/a-generation-of-graves/1448592734" },
             { "text": "Spotify", "link": "https://open.spotify.com/artist/6ZOq6JB2e1NoGbzzYOH2G6" },
-            { "text": "BandCamp", "link": "https://agenerationofgraves.bandcamp.com/album/agitprop-remixes" },
+            { "text": "Bandcamp", "link": "https://agenerationofgraves.bandcamp.com/album/agitprop-remixes" },
             { "text": "YouTube", "link": "https://www.youtube.com/channel/UCKF3TuyQalTjmsecDtyF5Tw" }
         ]
     },
@@ -13,14 +13,15 @@ const d =  {
         "links": [
             { "text": "Apple Music", "link": "https://music.apple.com/gb/artist/agrekulture/1502037502" },
             { "text": "Spotify", "link": "https://open.spotify.com/artist/32XJzCX7jVRj8lP3IMYUix?si=un2gaYmZRo2EzamjEg_TGA" },
-            { "text": "BandCamp", "link": "https://fuklyfe.bandcamp.com/album/beet-tape" },
-            { "text": "YouTube", "link": "https://www.youtube.com/channel/UCrrvfYSVmDQL1yu0rpSYAHA" }
+            { "text": "Bandcamp", "link": "https://fuklyfe.bandcamp.com/album/beet-tape" },
+            { "text": "YouTube", "link": "https://www.youtube.com/channel/UCrrvfYSVmDQL1yu0rpSYAHA" },
+            { "text": "Instagram", "link": "https://www.instagram.com/agrekulture/" }
         ]
     },
     "bilateral_motion": {
         "handle": "Bilateral Motion",
         "links": [
-            { "text": "BandCamp", "link": "https://bilateralmotion.bandcamp.com/releases" }
+            { "text": "Bandcamp", "link": "https://bilateralmotion.bandcamp.com/releases" }
         ]
     },
     "cata": {
@@ -32,8 +33,9 @@ const d =  {
     "hautlle": {
         "handle": "hautlle",
         "links": [
-            { "text": "BandCamp", "link": "https://virtualurbanrecords.bandcamp.com/album/homemade-recordings-of-handmade-dreams" },
-            { "text": "BandCamp", "link": "https://hautlle.bandcamp.com/" }
+            { "text": "Bandcamp", "link": "https://virtualurbanrecords.bandcamp.com/album/homemade-recordings-of-handmade-dreams" },
+            { "text": "Bandcamp", "link": "https://hautlle.bandcamp.com/" },
+            { "text": "instagram", "link": "https://www.instagram.com/the_hautlle" }
         ]
     },
     "j_pino": {
@@ -41,32 +43,32 @@ const d =  {
         "links": [
             { "text": "Apple Music", "link": "https://music.apple.com/us/artist/j-pino/1473768006" },
             { "text": "Spotify", "link": "https://open.spotify.com/artist/5ct1Jb652RJ46cZfyut70l" },
-            { "text": "BandCamp", "link": "https://intelligentsound.bandcamp.com/album/albany-nights" }
+            { "text": "Bandcamp", "link": "https://intelligentsound.bandcamp.com/album/albany-nights" }
         ]
     },
     "juniper_wave": {
         "handle": "Juniper.Wave",
         "links": [
-            { "text": "BandCamp", "link": "https://juniperwave.bandcamp.com/"}
+            { "text": "Bandcamp", "link": "https://juniperwave.bandcamp.com/"}
         ]
     },
     "lucite_plains": {
         "handle": "Lucite Plains",
         "links": [
-            { "text": "BandCamp", "link": "https://luciteplains.bandcamp.com/"}
+            { "text": "Bandcamp", "link": "https://luciteplains.bandcamp.com/"}
         ]
     },
     "plastic_electronics": {
         "handle": "Plastic Electronics",
         "links": [
             { "text": "Apple Music", "link": "https://music.apple.com/us/artist/plastic-electronics/1485497256"},
-            { "text": "BandCamp", "link": "https://plasticelectronics.bandcamp.com/releases"}
+            { "text": "Bandcamp", "link": "https://plasticelectronics.bandcamp.com/releases"}
         ]
     },
     "shawn_edward_hansen": {
         "handle": "Shawn Edward Hansen",
         "links": [
-            { "text": "BandCamp", "link": "https://shawnedwardhansen.bandcamp.com"}
+            { "text": "Bandcamp", "link": "https://shawnedwardhansen.bandcamp.com"}
         ]
     },
     "two_for_larry": {
@@ -81,7 +83,7 @@ const d =  {
             { "text": "YouTube", "link": "https://www.youtube.com/channel/UCPgzj3Nlz4JoTbfZzMcIYGg"},
             { "text": "Facebook", "link": "https://www.facebook.com/VenaCova"},
             { "text": "Bandcamp", "link": "https://venacova.bandcamp.com/"},
-            { "text": "Soundcloud", "link": "https://soundcloud.com/venacova"}
+            { "text": "SoundCloud", "link": "https://soundcloud.com/venacova"}
         ]
     },
     "wrker_": {
@@ -89,7 +91,7 @@ const d =  {
         "links": [
             { "text": "YouTube", "link": "https://youtube.com/@Workerlaman"},
             { "text": "SoundCloud", "link": "https://on.soundcloud.com/jaHzSamGP1jcSBm97"},
-            { "text": "Bandcamp", "link": "https://theworkerful.bandcamp.com/album/clock-in-clock-out"}
+            { "text": "Bandcamp", "link": "https://wrker.bandcamp.com/album/mind-work-2"}
         ]
     },
     "richard_galbraith": {
@@ -103,13 +105,13 @@ const d =  {
         "handle": "willbe",
         "links": [
             { "text": "instagram", "link": "https://instagram.com/willbe.sound?igshid=OGQ5ZDc2ODk2ZA=="},
-            { "text": "Soundcloud", "link": "https://on.soundcloud.com/HfPwGesyWXwHnNicA"}
+            { "text": "SoundCloud", "link": "https://on.soundcloud.com/HfPwGesyWXwHnNicA"}
         ]
     },
     "dj_rawn_pearlmin": {
         "handle": "DJ Rawn Pearlmin",
         "links": [
-            { "text": "Soundcloud", "link": "https://on.soundcloud.com/yQpSw"}
+            { "text": "SoundCloud", "link": "https://on.soundcloud.com/yQpSw"}
         ]
     },
     "john_wyss": {
@@ -121,7 +123,7 @@ const d =  {
     "falling_mountain": {
         "handle": "Falling Mountain",
         "links": [
-            { "text": "Soundcloud", "link": "https://on.soundcloud.com/bzUbc"}
+            { "text": "SoundCloud", "link": "https://on.soundcloud.com/bzUbc"}
         ]
     },
     "charlie_burt": {
@@ -143,6 +145,12 @@ const d =  {
         "links": [
             { "text": "www.therecordmachine.co", "link": "https://www.therecordmachine.co/"},
             { "text": "Instagram", "link": "http://www.instagram.com/bobcatattack.me"}
+        ]
+    },
+    "austin_williamson": {
+        "handle": "Austin Williamson",
+        "links": [
+            { "text": "Bandcamp", "link": "https://austinwilliamson.bandcamp.com/album/structures"}
         ]
     }
 }
