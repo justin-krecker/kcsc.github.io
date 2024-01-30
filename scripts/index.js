@@ -2,7 +2,7 @@ function directory(){
     console.log(`directory`);
     document.addEventListener('click', (event)=>{
         if (!event.target.matches('#directory-header')) return;
-        event.preventDefault();
+        //event.preventDefault();
         console.log(`event.target=${event.target}`);
         toggle(document.getElementById("directory-content"));
     });
