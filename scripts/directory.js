@@ -143,8 +143,8 @@ const d =  {
     "bobcat_attack": {
         "handle": "Bobcat Attack",
         "links": [
-            { "text": "www.therecordmachine.co", "link": "https://www.therecordmachine.co/"},
-            { "text": "Instagram", "link": "http://www.instagram.com/bobcatattack.me"}
+            { "text": "www.bobcatattack.me", "link": "https://www.bobcatattack.me"},
+            { "text": "Bandcamp", "link": "http://bobcatattack.bandcamp.com"}
         ]
     },
     "austin_williamson": {
