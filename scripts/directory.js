@@ -33,9 +33,7 @@ const d =  {
     "hautlle": {
         "handle": "hautlle",
         "links": [
-            { "text": "Bandcamp", "link": "https://virtualurbanrecords.bandcamp.com/album/homemade-recordings-of-handmade-dreams" },
-            { "text": "Bandcamp", "link": "https://hautlle.bandcamp.com/" },
-            { "text": "instagram", "link": "https://www.instagram.com/the_hautlle" }
+            { "text": "Website", "link": "https://hautlle.com/" }
         ]
     },
     "j_pino": {
