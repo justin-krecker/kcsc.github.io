@@ -102,8 +102,7 @@ const d =  {
     "willbe": {
         "handle": "willbe",
         "links": [
-            { "text": "instagram", "link": "https://instagram.com/willbe.sound?igshid=OGQ5ZDc2ODk2ZA=="},
-            { "text": "SoundCloud", "link": "https://on.soundcloud.com/HfPwGesyWXwHnNicA"}
+            { "text": "willbesound.com", "link": "https://www.willbesound.com"}
         ]
     },
     "dj_rawn_pearlmin": {
