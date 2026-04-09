@@ -33,7 +33,7 @@ const d =  {
     "hautlle": {
         "handle": "hautlle",
         "links": [
-            { "text": "Website", "link": "https://hautlle.com/" }
+            { "text": "hautlle.com", "link": "https://hautlle.com/" }
         ]
     },
     "j_pino": {
